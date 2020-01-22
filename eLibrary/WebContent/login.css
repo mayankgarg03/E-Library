@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+body{
+    margin:0px;
+    padding: 0px;
+    background: url(images/library.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.loginbox{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    background:white;
+   
+}
+
+.loginbox img{
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: 200px;
+    box-sizing: border-box;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 40px;
+    font-style: italic;
+    /* color: red; */
+    text-align: center;
+    margin-top: -30px;
+   
+}
+
+p{
+    color: black;
+   font-size: 20px;
+   font-weight: bold;
+   margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+input{
+    margin-bottom:20px;
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 20px;  
+}
+.loginbox input[type="text"],input[type="password"]{
+    /* border: none; */
+    /* border-bottom: 1px solid white; */
+    /* background: transparent;   */
+    /* outline: none; */
+    /* height: 20px;
+        color: #fff; */
+
+       
+    width: 90%;
+    border-radius: 50px;
+}
+
+.loginbtn{
+    cursor: pointer;
+    /* text-align: center; */
+    /* margin-left: 130px;
+    margin-top: 40px; */
+    margin-left: 15px;
+    width: 90%;
+    border-radius: 50px;
+
+}
+.links{
+	margin-left:15px;
+}
+
+

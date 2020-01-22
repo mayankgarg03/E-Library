@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+.banner img{
+height: 657px;
+width:100%;
+position: relative;
+}
+
+.text{
+	position:absolute;
+top:0px;
+left:100px;
+	
+}
+
+.role{
+	
+	margin-top: 30px;
+	color:blue;
+}
+
+.link{
+	color: black;
+}
+
+.link1{
+	color: white;
+}
